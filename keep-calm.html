@@ -25,7 +25,19 @@ font-size: 50px;
 		h2 {
 font-size: 32px;
 		}
-		
+	div p{
+		background: blue;
+	}								
+	div > p{
+		background:orange;
+
+	}									
+	div + p {
+		background: yellow;
+	}							
+	div ~ p {
+		background: purple;
+	}																																																		
 	</style>
 		
 </head>
@@ -41,4 +53,13 @@ font-size: 32px;
 
 
 </div>
+<hr>
+<div>
+	<p>Paragraph 1 in the div.</p>
+	<p>Paragraph 2 in the div.</p>
+	<span><p>Paragraph 3 in the div.</p></span>
+	</div>
+	<p>Paragraph 4 in the div.</p>
+	<p>Paragraph 5in the div.</p>
+
 </body></html>
